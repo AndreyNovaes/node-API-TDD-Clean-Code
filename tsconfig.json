@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // pasta de saida
+    "module": "commonjs", // import export no desenvolvimento module.exports e require na saída(build) o tipo que os browser conseguem entender
+    "target": "ESNext", // gera o dist com o padrão ESNext https://node.green/ cuidado com a versão do node do servidor onde está a produção
+    "esModuleInterop": true, // converte commonjs => permite o uso de import export no desenvolvimento nos módulos que usam commonjs
+    "allowJs": true, // arquivos config *.js serão adicionados no dist também
+  }
+}
