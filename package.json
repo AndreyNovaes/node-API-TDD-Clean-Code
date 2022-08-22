@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/AndreyNovaes/node-API-TDD-Clean-Code/issues"
   },
-  "homepage": "https://github.com/AndreyNovaes/node-API-TDD-Clean-Code#readme"
+  "homepage": "https://github.com/AndreyNovaes/node-API-TDD-Clean-Code#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.3"
+  }
 }
